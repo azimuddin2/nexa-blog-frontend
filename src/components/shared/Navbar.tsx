@@ -41,7 +41,7 @@ const Navbar = () => {
             <div>
                 <Link
                     href="/blogs/create"
-                    className="px-4 py-3 bg-green-500 text-white rounded-full hover:bg-green-400"
+                    className="px-4 py-3 bg-green-600 text-white rounded-full hover:bg-green-500"
                 >
                     Post Blog
                 </Link>
