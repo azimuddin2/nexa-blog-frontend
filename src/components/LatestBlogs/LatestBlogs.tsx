@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const LatestBlogs = ({ blogs }: { blogs: Blog[] }) => {
     return (
-        <div className="w-[90%] mx-auto">
+        <div className="w-[90%] mx-auto my-10">
             <h1 className="text-3xl text-center my-5 font-bold">
                 Latest Blogs From <span className="text-green-600">NexaBlog</span>
             </h1>
