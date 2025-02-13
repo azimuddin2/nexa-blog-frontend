@@ -1,4 +1,6 @@
 import BlogCard from '@/components/ui/BlogCard';
+// import Spinner from '@/components/ui/Spinner';
+// import { useGetBlogsQuery } from '@/redux/apis/blogs.slice';
 import { Blog } from '@/types';
 import { Metadata } from 'next';
 
@@ -8,10 +10,16 @@ export const metadata: Metadata = {
 };
 
 const BlogsPage = async () => {
+    // const { data: blogs, isLoading } = useGetBlogsQuery({});
+
     const res = await fetch('http://localhost:5000/blogs', {
         cache: 'no-store',
     });
     const blogs = await res.json();
+
+    // if (isLoading) {
+    //     return <Spinner />
+    // }
 
     return (
         <div className='my-12 w-[90%] mx-auto'>
