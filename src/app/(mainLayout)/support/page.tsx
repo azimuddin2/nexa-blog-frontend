@@ -1,5 +1,12 @@
+import { Metadata } from 'next';
 import React from 'react';
 import { FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+    title: "Support - NexaBlog",
+    description:
+        "Welcome to NexaBlog – where innovation meets imagination in the dynamic realm of technology, offering a thrilling journey through the latest trends and groundbreaking discoveries in the world of tech!",
+};
 
 const SupportPage = () => {
     return (
