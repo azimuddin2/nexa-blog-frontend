@@ -6,7 +6,7 @@ import { FaCalendar } from "react-icons/fa";
 const BlogDetailsCard = ({ blog }: { blog: Blog }) => {
     return (
         <div className="w-2/3 bg-white shadow-lg rounded-lg mx-auto p-6">
-            <p className="flex items-center justify-center mx-auto text-green-500 bg-green-100 w-fit px-3 py-1 rounded-full">
+            <p className="flex items-center justify-center mx-auto text-teal-500 bg-teal-100 w-fit px-3 py-1 rounded-full">
                 <FaCalendar className="mr-2" />
                 {blog.publish_date}
             </p>
@@ -35,7 +35,7 @@ const BlogDetailsCard = ({ blog }: { blog: Blog }) => {
             </div>
             <div className="flex justify-between items-center mt-5">
                 <div className="flex items-center text-xl text-gray-600">
-                    <AiFillLike className="text-green-500 mr-2" />
+                    <AiFillLike className="text-teal-500 mr-2" />
                     <span className="mr-1">{blog.total_likes}</span>
                     Likes
                 </div>

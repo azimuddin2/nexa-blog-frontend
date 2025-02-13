@@ -5,7 +5,7 @@ const Banner = () => {
         <div className={styles.banner_container}>
             <div className="container h-full flex justify-center items-center">
                 <div className="w-[60%] h-[60%] rounded-xl text-center bg-white px-16 py-20">
-                    <p className="w-40 mx-auto rounded-full p-2 my-5 bg-green-100 text-green-600">
+                    <p className="w-40 mx-auto rounded-full p-2 my-5 bg-teal-100 text-teal-600">
                         1st January 2025
                     </p>
                     <h1 className="text-4xl">The Rise of Quantum Computing</h1>

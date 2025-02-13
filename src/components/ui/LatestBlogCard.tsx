@@ -22,7 +22,7 @@ const LatestBlogCard = ({ blog }: { blog: Blog }) => {
                 />
             </figure>
             <div className="p-5">
-                <p className="flex items-center justify-center text-green-600 bg-green-100 w-fit px-3 py-1 rounded-full">
+                <p className="flex items-center justify-center text-teal-600 bg-teal-100 w-fit px-3 py-1 rounded-full">
                     <FaCalendar className="mr-2" />
                     {publish_date}
                 </p>
@@ -31,7 +31,7 @@ const LatestBlogCard = ({ blog }: { blog: Blog }) => {
                     {description.length > 100
                         ? description.slice(0, 180) + "..."
                         : description}
-                    <Link href={`/blogs/${id}`} className="text-green-600 ml-2">
+                    <Link href={`/blogs/${id}`} className="text-teal-600 ml-2">
                         Read More
                     </Link>
                 </p>
@@ -47,7 +47,7 @@ const LatestBlogCard = ({ blog }: { blog: Blog }) => {
                         <span className="text-gray-500">{author_name}</span>
                     </div>
                     <div className="flex items-center">
-                        <AiFillLike className="text-green-600 text-xl mr-1" />
+                        <AiFillLike className="text-teal-600 text-xl mr-1" />
                         {total_likes} Likes
                     </div>
                 </div>

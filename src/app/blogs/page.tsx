@@ -24,7 +24,7 @@ const BlogsPage = async () => {
     return (
         <div className='my-12 w-[90%] mx-auto'>
             <h1 className="text-3xl text-center my-5 font-bold">
-                Explore All <span className="text-green-600">Blogs</span>
+                Explore All <span className="text-teal-600">Blogs</span>
             </h1>
             <p className="text-center text-gray-400 w-2/5 mx-auto">
                 <i>

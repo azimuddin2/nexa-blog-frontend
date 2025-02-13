@@ -17,7 +17,7 @@ const BlogCard = ({blog}: {blog: Blog}) => {
         />
       </figure>
       <div className="p-6">
-        <p className="flex items-center justify-center text-green-600 bg-green-100 w-32 rounded-full py-1 text-sm">
+        <p className="flex items-center justify-center text-teal-600 bg-teal-100 w-32 rounded-full py-1 text-sm">
           <FaCalendar className="mr-2" />
           {blog.publish_date}
         </p>
@@ -30,7 +30,7 @@ const BlogCard = ({blog}: {blog: Blog}) => {
           {blog.description.length > 100
             ? blog.description.slice(0, 60) + "..."
             : blog.description}
-          <Link href={`/blogs/${blog.id}`} className="text-green-600 ml-1">
+          <Link href={`/blogs/${blog.id}`} className="text-teal-600 ml-1">
             Read More
           </Link>
         </p>
@@ -50,7 +50,7 @@ const BlogCard = ({blog}: {blog: Blog}) => {
             </span>
           </div>
           <div className="flex items-center text-sm text-gray-700">
-            <AiFillLike className="text-green-600 text-xl mr-1" />
+            <AiFillLike className="text-teal-600 text-xl mr-1" />
             {blog.total_likes} Likes
           </div>
         </div>

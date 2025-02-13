@@ -11,6 +11,7 @@ const Navbar = () => {
         { href: "/blogs", label: "Blogs" },
         { href: "/about", label: "About Us" },
         { href: "/support", label: "Support" },
+        { href: "/dashboard", label: "Dashboard" },
     ];
 
     return (
@@ -29,7 +30,7 @@ const Navbar = () => {
                         key={href}
                         href={href}
                         className={`${pathname === href
-                            ? "text-green-500 font-bold"
+                            ? "text-teal-500 font-bold"
                             : "text-gray-700 hover:text-6eal-700"
                             }`}
                     >
@@ -38,14 +39,27 @@ const Navbar = () => {
                 ))}
             </div>
 
-            <div>
+            {/* <div>
                 <Link
                     href="/blogs/create"
-                    className="px-4 py-3 bg-green-600 text-white rounded-full hover:bg-green-500"
+                    className="px-4 py-3 bg-teal-600 text-white rounded-full hover:bg-teal-500"
                 >
                     Post Blog
                 </Link>
+            </div> */}
+
+            <div className="flex items-center">
+                {/* <button className="border border-red-500 text-red-500 px-5 py-2 rounded-full hover:bg-red-500 hover:text-black transition duration-200">
+                    Logout
+                </button> */}
+                <Link
+                    href="/login"
+                    className="border border-teal-500 text-teal-500 px-6 py-2 rounded-full hover:bg-teal-500 hover:text-white transition duration-200"
+                >
+                    Login
+                </Link>
             </div>
+
         </nav>
     );
 };

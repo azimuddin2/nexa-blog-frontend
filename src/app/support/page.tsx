@@ -19,15 +19,15 @@ const SupportPage = () => {
 
                 <div className="mt-6 space-y-4">
                     <div className="flex items-center text-gray-600">
-                        <FaPhone className="text-green-600 mr-3" />
+                        <FaPhone className="text-teal-600 mr-3" />
                         <span>+1 234 567 890</span>
                     </div>
                     <div className="flex items-center text-gray-600">
-                        <FaEnvelope className="text-green-600 mr-3" />
+                        <FaEnvelope className="text-teal-600 mr-3" />
                         <span>support@example.com</span>
                     </div>
                     <div className="flex items-center text-gray-600">
-                        <FaMapMarkerAlt className="text-green-600 mr-3" />
+                        <FaMapMarkerAlt className="text-teal-600 mr-3" />
                         <span>123 Support St, Tech City, USA</span>
                     </div>
                 </div>

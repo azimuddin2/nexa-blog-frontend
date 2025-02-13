@@ -22,7 +22,7 @@ const Footer = () => {
                     <Link
                         href="#"
                         aria-label="Twitter"
-                        className="text-green-500 hover:text-green-400"
+                        className="text-teal-500 hover:text-teal-400"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ const Footer = () => {
                     <Link
                         href="#"
                         aria-label="YouTube"
-                        className="text-green-500 hover:text-green-400"
+                        className="text-teal-500 hover:text-teal-400"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ const Footer = () => {
                     <Link
                         href="#"
                         aria-label="Facebook"
-                        className="text-green-500 hover:text-green-400"
+                        className="text-teal-500 hover:text-teal-400"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

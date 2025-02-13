@@ -7,7 +7,7 @@ const LatestBlogs = ({ blogs }: { blogs: Blog[] }) => {
     return (
         <div className="w-[90%] mx-auto my-10">
             <h1 className="text-3xl text-center my-5 font-bold">
-                Latest Blogs From <span className="text-green-600">NexaBlog</span>
+                Latest Blogs From <span className="text-teal-600">NexaBlog</span>
             </h1>
             <p className="text-center text-gray-400 w-2/5 mx-auto">
                 <i>
@@ -28,7 +28,7 @@ const LatestBlogs = ({ blogs }: { blogs: Blog[] }) => {
             </div>
             <div className="text-center">
                 <Link href="/blogs">
-                    <button className="px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-500">
+                    <button className="px-3 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-500">
                         See More
                     </button>
                 </Link>
